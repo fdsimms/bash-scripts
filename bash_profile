@@ -24,3 +24,4 @@ function chrome() { /usr/bin/open -a "/Applications/Google Chrome.app" http://$1
 function rsetup() { atom .; bundle install; npm install;
 		    bundle exec rake db:setup; webpack --watch; }
 function gco() { git commit -m "$1"; }
+function cd.() { cd $1; atom .; }
