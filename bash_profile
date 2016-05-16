@@ -12,6 +12,8 @@ alias a.="atom ."
 alias o.="open ."
 alias ..='cd ..'
 alias dt="cd ~/desktop"
+alias wpw="webpack --watch"
+alias npmi="npm install"
 
 # Git aliases
 alias ga="git add -A"
@@ -25,3 +27,5 @@ function rsetup() { atom .; bundle install; npm install;
 		    bundle exec rake db:setup; webpack --watch; }
 function gco() { git commit -m "$1"; }
 function cd.() { cd $1; atom .; }
+function npmis() { npm install --save $*; }
+function npmig() { npm install -g $*; }
