@@ -12,11 +12,14 @@ alias a.="atom ."
 alias o.="open ."
 alias ..='cd ..'
 alias dt="cd ~/desktop"
+alias wp=“webpack”
 alias wpw="webpack --watch"
 alias npmi="npm install"
 
 # Git aliases
 alias ga="git add -A"
+alias gst=“git status”
+alias glog=“git log”
 alias gpush="git push origin master"
 alias gpull="git pull origin master"
 alias pserver="python -m SimpleHTTPServer"
